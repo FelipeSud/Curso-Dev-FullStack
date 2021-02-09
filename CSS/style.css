@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+
+.card{
+    width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1px 20px;
+    background-image: url("backgorund.png");
+    background-size: cover;
+    margin: auto;
+    margin-top: 10%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.Instagram{
+    list-style-image: url('Insta.png');
+}
+
+.Twitter{
+    list-style-image: url('Twitter.png');
+}
+.Youtube{
+    list-style-image: url('Youtube.png');
+
+}
