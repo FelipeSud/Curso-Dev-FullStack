@@ -1,0 +1,59 @@
+.header{
+background-color: cornflowerblue;
+padding: 15px;
+margin: auto;
+font-size: 18px;
+overflow: hidden;
+width: 88%;
+} 
+
+a{
+    color:cornsilk;
+    text-decoration: none;    
+}
+
+.links:hover{
+    background-color: cornsilk;
+    color:cornflowerblue;
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+li{
+    color: cornsilk;
+    float: left;
+    margin-left: 15px; 
+    
+}
+
+.logo{
+    color: cornsilk;
+    float: left;
+    margin-left: 15px;    
+}
+
+@media screen and (max-width: 700px){
+   /* .header{
+        background-color: gray;
+        text-decoration: white;
+       }*/
+    .logo{
+        margin-top: 20px;
+        float: none;
+        text-align: center;
+     }
+    .menu{
+        margin-top: 20px;
+        float: none;
+        text-align: center;
+    }
+    li{
+        float: none;
+
+    }
+}
