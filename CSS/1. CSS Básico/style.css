@@ -2,7 +2,7 @@ body{
     background-color: black;
 }
 
-.card{
+main{
     width: 400px;
     height: 200px;
     box-sizing: border-box;
