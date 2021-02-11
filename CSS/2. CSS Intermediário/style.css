@@ -1,4 +1,4 @@
-.header{
+header{
 background-color: cornflowerblue;
 padding: 15px;
 margin: auto;
@@ -31,18 +31,18 @@ li{
     
 }
 
-.logo{
+nav{
     color: cornsilk;
     float: left;
     margin-left: 15px;    
 }
 
 @media screen and (max-width: 700px){
-   /* .header{
+    header{
         background-color: gray;
         text-decoration: white;
-       }*/
-    .logo{
+       }
+    nav{
         margin-top: 20px;
         float: none;
         text-align: center;
@@ -56,4 +56,7 @@ li{
         float: none;
 
     }
+    
+        
+
 }
