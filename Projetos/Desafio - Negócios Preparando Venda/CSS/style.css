@@ -41,6 +41,15 @@ header a{
         
 }
 
+.article{
+    padding: 20px;
+    max-width: 800px;
+    background-color: #FFFFFFBB;
+    float: left;
+    text-align: center;
+
+
+}
 
 section{
     padding: 20px;
