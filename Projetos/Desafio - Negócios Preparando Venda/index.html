@@ -16,10 +16,11 @@
             <nav> Logo
             </nav>
             <ul class="menu">
-                <li><a href="#" class="links">Home</li></a>
-                <li><a href="#servicos" class="links">Serviços</li></a>
+                <li><a href="#home" class="links">Home</li></a>
+                <li><a href="#budget" class="links">Orçamento</li></a>
                 <li><a href="#contatos" class="links">Contato</li></a>
-                <li><a href="#cases" class="links">Cases</li></a>
+                <li><a href="#servicos" class="links">Serviços</li></a>
+                <li><a href="#cases" class="links">Clientes</li></a>
 
 
             </ul>
@@ -27,24 +28,30 @@
         </header>
         <section>
             <article class="article">
-                <h2 class="mb">CONHEÇA A ORLA</h2>
-                <p class="mb">A Orla é uma empresa familiar, presente no mercado há mais de 20 anos.</p>
-                <p class="mb">A Orla é uma empresa familiar, presente no mercado há mais de 20 anos.</p>
-                <p class="mb">A Orla é uma empresa familiar, presente no mercado há mais de 20 anos.</p>
-                <p class="mb">A Orla é uma empresa familiar, presente no mercado há mais de 20 anos.</p>
-                <p class="mb">A Orla é uma empresa familiar, presente no mercado há mais de 20 anos.</p>
-                <p class="mb">A Orla é uma empresa familiar, presente no mercado há mais de 20 anos.</p>
-                <p class="mb">A Orla é uma empresa familiar, presente no mercado há mais de 20 anos.</p>
-                <p class="mb">A Orla é uma empresa familiar, presente no mercado há mais de 20 anos.</p>
-                <p class="mb">A Orla é uma empresa familiar, presente no mercado há mais de 20 anos.</p>
-                <p class="mb">A Orla é uma empresa familiar, presente no mercado há mais de 20 anos.</p>
-                <p class="mb">A Orla é uma empresa familiar, presente no mercado há mais de 20 anos.</p>
-                <p class="mb">A Orla é uma empresa familiar, presente no mercado há mais de 20 anos.</p>
+                <h2 class="mb" id="home">SOBRE A EMPRESA</h2>
+                <p class="mb">A Orla é uma empresa familiar, presente no mercado há mais de 20 anos. Com todos esses anos de experiência, somos a empresa certa para você.
+                <p class="mb">Trabalhamos com estampas em sublimação, serigrafia e bordados. Oferecemos também serviços de bordado.
+                Temos preços especiais para os uniformes da sua empresa ou escola, estampamos epi's e fazemos máscaras de proteção persnalizadas.</p>
+                Entre em contato conosco pelo telefone: <strong>(12) 99613-9215</strong> ou solicite um orçamento que prontamente entraremos em contato.
+                Entregamos em todo o Vale do Paraíba, Litoral e região de Guarulhos.</p>
+                <br>
+                <h2 class="mb">MISSÃO</h2>
+                <p class="mb">Prestar serviços de confecção, estamparia e bordados destinados a atender às necessidades de seus clientes, com qualidade, confiabilidade e custos adequados.</p>
+                <br>
+                <h2 class="mb">VISÃO</h2>
+                <p class="mb">Ser a empresa referência do segmento na região, através da qualidade nos serviços, nos equipamentos,na habilidade técnica da equipe e na satisfação dos clientes</p>
+                
+                <br>
+                <h2 class="mb">VALORES</h2>
+                <p class="mb">Honestidade, Compromisso, Ética, Dedicação, Confiabilidade, Inovação.</p>
+                <br>
 
 
 
             </article>
-            <div class="formContainer">
+            
+            <div id="budget"  class="formContainer">
+               
                 <h2 class="mb">FAÇA SEU ORÇAMENTO SEM COMPROMISSO</h2>
                 <p class="mb"> Escreva-nos o tipo de serviço que deseja, que o mais breve possível, um de nossos
                     vendedores entrará em contato.
@@ -54,23 +61,43 @@
                     action="https://hotmail.us1.list-manage.com/subscribe/post?u=b389c89f01dcbf1384c214b23&amp;id=632653b861"
                     id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
                     novalidate>
-                    <input id="name" name="FNAME" type="text" placeholder="Nome">
+                    <input id="name" name="NAME" type="text" placeholder="Nome">
                     <input id="email" name="EMAIL" type="text" placeholder="E-mail">
                     <input id="telefone" name="TEL" type="tel" placeholder="Telefone">
                     <input id="cidade" name="CITY" type="text" placeholder="Cidade">
-                    <textarea name="Orcamento">Escreva os serviços que deseja</textarea>
-
-                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                            name="b_b389c89f01dcbf1384c214b23_632653b861" tabindex="-1" value=""></div>
-                    <input type="submit" value="ENVIAR">
+                    <p><input id="sublimacao" name="SUB" type="checkbox" placeholder="Estampa Sublimação" value="op1">
+                        Estampa Sublimação</p>
+                    <p> <input id="bordado" name="BORD" type="checkbox" placeholder="Bordados" value="op2"> Bordados</p>
+                    <p><input id="serigrafia" name="SER" type="checkbox" placeholder="Telefone" value="op3"> Serigrafia
+                    </p>
+                    <p><input id="uniformes" name="UNI" type="checkbox" placeholder="Uniformes" value="op4">Uniformes
+                        Empresa/Escola</p>
+                    <p> <input id="epi" name="EPI" type="checkbox" placeholder="Estampas em EPI's" value="op5"> Estampas
+                        em EPI's</p>
+                    <p> <input id="covid" name="COVID" type="checkbox" placeholder="Máscaras COVID-19"
+                            value="op6">Máscaras COVID-19</p>
+                     <input type="submit" value="ENVIAR" name="subscribe">
             </div>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5192.47972513538!2d-45.60529180339083!3d-23.037073915016723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccf86d0e6efbe1%3A0x306d59455e141ff6!2sUniformes%20Personalizada%20Industriais%20Orla!5e0!3m2!1spt-BR!2sbr!4v1613262759850!5m2!1spt-BR!2sbr" width="600" height="529" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                    name="b_b389c89f01dcbf1384c214b23_632653b861" tabindex="-1" value=""></div>
+
+
+
             </form>
+            
         </section>
         <footer>
             <div class="description">
+                <h3 id="contatos">CONTATOS:</h3>
+                <p>Nosso Endereço:</p>
+                <p>Rua: Deli Tabchoury, 251 - Parque Sr. do Bonfim</P>
+                <p>Taubaté - SP, 12040-500</p>
+                <p>Telefone: (12) 99613-9215</p>
+                <br><br>
                 <h3 id="servicos">SERVIÇOS QUE OFERECEMOS:</h3>
-                <ol>
+                <ul>
                     <li>
                         <p>Estampas em camisetas com Serigrafia e Sublimação.
                     </li>
@@ -103,17 +130,12 @@
                         <p>Camisetas e Abadás para eventos
                     </li>
                     </p>
-                </ol>
+                </ul>
                 <br>
                 <p>Peça um orçamento e saiba mais com nosso setor de vendas!</p>
                 <br><br><br>
-                <h3 id="contatos">CONTATOS:</h3>
-                <p>Nosso Endereço:</p>
-                <p>Rua: Deli Tabchoury, 251 - Parque Sr. do Bonfim</P>
-                <p>Taubaté - SP, 12040-500</p>
-                <p>Telefone: (12) 99613-9215</p>
                 <br><br><br>
-                <h3 id="cases">CASES:</h3>
+                <h3 id="cases">CLIENTES:</h3>
                 <p>Veja alguns de nossos serviços realizados</p>
                 <div class="cases">
                     <img src="./images/cases/alumiPremium.jpg" alt="alumiPremium" width="280px">
@@ -147,3 +169,6 @@
 </body>
 
 </html>
+
+
+
